@@ -15,7 +15,27 @@
                 </args>
             </sh_tireon>
         </routers>
+        <translate>
+            <modules>
+                <SH_Tireon>
+                    <files>
+                        <default>SH_Tireon.csv</default>
+                    </files>
+                </SH_Tireon>
+            </modules>
+        </translate>
     </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <SH_Tireon>
+                    <files>
+                        <default>SH_Tireon.csv</default>
+                    </files>
+                </SH_Tireon>
+            </modules>
+        </translate>
+    </adminhtml>
     <global>
         <helpers>
             <sh_tireon>
