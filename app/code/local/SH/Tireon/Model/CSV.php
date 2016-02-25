@@ -60,6 +60,6 @@ class SH_Tireon_Model_CSV extends Mage_Core_Model_Abstract
      */
     protected function _getCsvPath()
     {
-        return $this->_csvPath = Mage::getBaseDir('code') . DS . 'local' . DS .'SH' . DS .'Tireon' . DS . 'data' . DS;
+        return $this->_csvPath = Mage::getBaseDir('code') . DS . 'local' . DS .'SH' . DS .'Tireon' . DS . 'data';
     }
 }
