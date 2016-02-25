@@ -1,0 +1,74 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_vnzarial
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<div class="footer-container">
+	<div class="list-brands">
+		<?php 
+			if($this->getChildHtml('list_brands'))
+			echo $this->getChildHtml('list_brands'); 
+			else echo "Please add static block with id=list_brands";
+		?>
+	</div>
+    <div class="footer">
+        <div class="wrapper">
+			<div class="footer-col">
+				<?php 
+					if($this->getChildHtml('store_infomation'))
+					echo $this->getChildHtml('store_infomation');
+					else echo "Please add static block with id=store_infomation"; 
+				?>
+			</div>
+			<div class="footer-col-1"> 
+				<?php 
+					if($this->getChildHtml('my_account'))
+					echo $this->getChildHtml('my_account'); 
+					else echo "Please add static block with id=my_account";
+				?>
+			</div>
+			<div class="footer-col-2"> 
+				<?php 
+					if($this->getChildHtml('extras'))
+					echo $this->getChildHtml('extras'); 
+					else echo "Please add static block with id=extras";
+				?> 
+			</div>
+			
+			<div class="footer-col-3"> 
+				<div class="footer-icon">
+					<?php 
+						if($this->getChildHtml('footer_icon'))
+						echo $this->getChildHtml('footer_icon');
+						else echo "Please add static block with id=footer_icon"; 
+					?>
+				</div>
+				<?php echo $this->getChildHtml('left.newsletter') ?>
+			</div>
+		</div>
+       
+        <address><?php echo $this->getCopyright() ?></address>
+        <div class="design_by">Designed by <a title="Visit Magpassion.com!" href="http://www.magpassion.com/">MagPassion</a> - Powered by Magento.</div>
+    </div>
+</div>

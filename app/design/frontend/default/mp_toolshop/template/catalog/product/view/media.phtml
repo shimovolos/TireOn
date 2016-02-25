@@ -1,0 +1,155 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_vnzarial
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+/**
+ * Product media data template
+ *
+ * @see Mage_Catalog_Block_Product_View_Media
+ */
+?>
+<head>
+<link rel="stylesheet" href="<?php echo $this->getSkinUrl(); ?>quickview/css/jquery.fancybox-1.3.4.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo $this->getSkinUrl(); ?>quickview/css/stylefancy.css" type="text/css" />
+<link rel="stylesheet" href="<?php echo $this->getSkinUrl(); ?>quickview/css/cloud-zoom.css" type="text/css" />
+</head>
+<?php
+    $_product = $this->getProduct();
+    $_helper = $this->helper('catalog/output');
+    $zoomWidth   = 400; 
+    $zoomHeight  = 400; 
+    $zoomPosition  = 'right'; 
+	$zoomColor  = '#000000';	
+	
+	$top  = 290;	
+	$leftNext  = 250;	
+	$leftPrev  = 0;	
+	$pHeight  = 50;	
+	$pWidth  = 50;	
+	$imgWidth  = 265;	
+	$imgHeight  = 265;	
+?>
+<script type="text/javascript">
+//<![CDATA[
+jQuery.noConflict();
+jQuery(document).ready(function() {
+	jQuery('.cloud-zoom').CloudZoom({ showTitle: false });
+	jQuery(function(){
+		jQuery('#product_img_slider').slides({
+			preload: true,
+			preloadImage: '',
+			effect: 'fade',
+			crossfade: true,
+			slideSpeed: 350,
+			fadeSpeed: 500,
+			generateNextPrev: true,
+			generatePagination: false,
+			paginationClass: 'pagination'
+		});		
+	});
+
+});	
+//]]>
+</script>
+<style>
+#product_img_slider {
+    float: left;
+    width: 265px;
+	position:relative;
+}
+#product_img_slider .slides_container {
+	width: <?php echo $imgWidth.'px'?>;
+	height:<?php echo $imgHeight.'px'?>;
+	float:right;
+	border:1px solid #dfdfdf;
+
+}
+.slides_container a {
+	display:block;
+}
+#product_img_slider .next,#product_img_slider .prev {
+   display: block;
+    height: 20px;
+    left: <?php echo $leftPrev.'px'?>;
+    overflow: hidden;
+    position: absolute;
+    top: <?php echo $top.'px'?>;
+    width: 20px;
+    z-index: 101;
+}
+#product_img_slider .next {
+	left:<?php echo $leftNext.'px'?>;
+}
+#product_img_slider .pagination {
+}
+#product_img_slider .pagination li a {
+}
+
+.slides_container .slides_control { left: 0px !important; }
+.slides_container .slides_control #wrap{ left: 0px !important; }
+</style>
+
+<div id="product_img_slider">
+<?php if ($_product->getImage() != 'no_selection' && $_product->getImage()): ?>
+
+<?php if (count($this->getGalleryImages()) > 0): ?>
+<div class="slides_container">
+	<?php foreach ($this->getGalleryImages() as $_image): ?>
+		<a href="<?php echo $this->helper('catalog/image')->init($this->getProduct(), 'thumbnail', $_image->getFile())->resize(600); ?>" class ='cloud-zoom' rel="position:'<?php echo $zoomPosition?>' ,tint: '<?php echo $zoomColor ?>',tintOpacity:0.5 ,smoothMove:5,zoomWidth:<?php echo $zoomWidth?>,zoomHeight:<?php echo $zoomHeight?>,adjustY:-4, adjustX:10, zoomFlyOut:false,zoomSizeMode:'lens' ">
+			<img src="<?php echo $this->helper('catalog/image')->init($this->getProduct(), 'thumbnail', $_image->getFile())->resize($imgWidth,$imgHeight); ?>" width="<?php echo $imgWidth ?>" height="<?php echo $imgHeight ?>" alt="<?php echo $this->htmlEscape($_image->getLabel()) ?>" /> 
+		</a>		
+	<?php endforeach; ?>
+</div>
+<?php else:?>
+	<p class="product-image">
+		<a href="<?php echo $this->helper('catalog/image')->init($_product, 'image')->resize(600); ?>" class ='cloud-zoom' rel="position:'<?php echo $zoomPosition?>' ,tint: '<?php echo $zoomColor ?>',tintOpacity:0.5 ,smoothMove:5,zoomWidth:<?php echo $zoomWidth?>,zoomHeight:<?php echo $zoomHeight?>,adjustY:-4, adjustX:10, zoomFlyOut:false,zoomSizeMode:'lens' ">	
+    <?php
+        $_img = '<img id="image" width="'.$imgWidth.'" height="'.$imgHeight.'" src="'.$this->helper('catalog/image')->init($_product, 'image')->resize($imgWidth,$imgHeight).'" alt="'.$this->htmlEscape($this->getImageLabel()).'" title="'.$this->htmlEscape($this->getImageLabel()).'" />';
+        echo $_helper->productAttribute($_product, $_img, 'image');
+    ?>
+		</a>
+	</p>
+<?php endif; ?>
+
+<?php else: ?>
+<p class="product-image">
+	<a href="<?php echo $this->helper('catalog/image')->init($_product, 'image')->resize(600); ?>" class ='cloud-zoom' rel="position:'<?php echo $zoomPosition?>' ,tint: '<?php echo $zoomColor ?>',tintOpacity:0.5 ,smoothMove:5,zoomWidth:<?php echo $zoomWidth?>,zoomHeight:<?php echo $zoomHeight?>,adjustY:-40, adjustX:100, zoomFlyOut:false,zoomSizeMode:'lens' ">	
+<?php
+	$_img = '<img id="image" width="'.$imgWidth.'" height="'.$imgHeight.'" src="'.$this->helper('catalog/image')->init($_product, 'image')->resize($imgWidth,$imgHeight).'" alt="'.$this->htmlEscape($this->getImageLabel()).'" title="'.$this->htmlEscape($this->getImageLabel()).'" />';
+	echo $_helper->productAttribute($_product, $_img, 'image');
+?>
+	</a>
+</p>
+<?php endif; ?>
+<?php if (count($this->getGalleryImages()) > 0): ?>
+<ul class="pagination" >
+<?php foreach ($this->getGalleryImages() as $_image): ?>
+	<li>
+		<a class="pagination_img" title="<?php echo $this->htmlEscape($_image->getLabel()) ?>"><img class="p_image_hover" src="<?php echo $this->helper('catalog/image')->init($this->getProduct(), 'thumbnail', $_image->getFile())->resize($pWidth,$pHeight); ?>" width="<?php echo $pWidth?>" height="<?php echo $pHeight?>" alt="<?php echo $this->htmlEscape($_image->getLabel()) ?>" /></a>	
+	</li>
+<?php endforeach; ?>
+</ul>
+<?php endif; ?>
+</div>
