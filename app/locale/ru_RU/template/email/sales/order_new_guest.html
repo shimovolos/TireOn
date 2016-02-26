@@ -33,7 +33,6 @@ body,td { color:#2f2f2f; font:11px/1.35em Verdana, Arial, Helvetica, sans-serif;
                     <h1 style="font-size:22px; font-weight:normal; line-height:22px; margin:0 0 11px 0;">Здравствуйте, {{htmlescape var=$order.getBillingAddress().getName()}}</h1>
                     <p style="font-size:12px; line-height:16px; margin:0 0 10px 0;">
                         Спасибо за Ваш заказ на сайте {{var store.getFrontendName()}}.
-                        Как только заказ будет отгружен, мы вышлем вам электронное письмо со ссылкой, по которой можно отслеживать процесс доставки.
                         Если у Вас возникли вопросы по поводу Вашего заказа, пожалуйста, свяжитесь с нами по адресу <a href="mailto:{{config path='trans_email/ident_support/email'}}" style="color:#1E7EC8;">{{config path='trans_email/ident_support/email'}}</a> или по телефону <span class="nobr">{{config path='general/store_information/phone'}}</span> в рабочие дни с 09:00 до 18:00.
                     </p>
                     <p style="font-size:12px; line-height:16px; margin:0;">Информация о вашем заказе находится ниже.</p>

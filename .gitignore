@@ -1,2 +1,5 @@
-.idea/
-var/
+.idea
+.idea/*
+var/*
+media/catalog/*/cache
+media/*

@@ -39,7 +39,7 @@ class SH_Tireon_Model_Catalog_Product
 
             try {
                 $productModel
-                    ->setTypeId(Mage_Catalog_Model_Product_Type::TYPE_SIMPLE)
+                    ->setTypeId(Mage_Catalog_Model_Product_Type::TYPE_VIRTUAL)
                     ->setAttributeSetId($productModel->getDefaultAttributeSetId())
                     ->setWebsiteIDs(array(1));
 
