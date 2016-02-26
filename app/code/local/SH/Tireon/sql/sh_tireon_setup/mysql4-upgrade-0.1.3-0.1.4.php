@@ -1,10 +1,18 @@
 <?php
 
 /* @var $installer Mage_Core_Model_Resource_Setup*/
-
 $installer = $this;
 
 $installer->startSetup();
+
+$installer->setConfigData('wishlist/general/active', 0);
+$installer->setConfigData('sendfriend/email/enabled', 0);
+$installer->setConfigData('shipping/option/checkout_multiple', 0);
+$installer->setConfigData('carriers/freeshipping/active', 1);
+$installer->setConfigData('payment/ccsave/active', 0);
+
+$installer->setConfigData('payment/checkmo/active', 1);
+$installer->setConfigData('payment/checkmo/title', 'Наличные, пластиковые карточки');
 
 $attributesArray = array('Производитель', 'Модель', 'Ширина' , 'Профиль', 'Диаметр', 'Индекс нагрузки', 'Индекс скорости', 'Сезонность');
 
@@ -37,12 +45,10 @@ foreach($attributesArray as $attributeName) {
     $attributeId = $attributeResourceModel->getIdByCode('catalog_product', $attributeCode);
     if ($attributeId) {
         $attribute = Mage::getModel('catalog/resource_eav_attribute')->load($attributeId);
-        $attribute->setIsVisibleOnFront(1)->save();
+        $attribute->setIsVisibleOnFront(1);
+        $attribute->setIsComparable(1);
+        $attribute->save();
     }
 }
-
-$installer->setConfigData('sh_tireon_settings/general/count', 200);
-$installer->setConfigData('sh_tireon_settings/general/price_percent', 10);
-$installer->setConfigData('sh_tireon_settings/general/round', 3);
 
 $installer->endSetup();

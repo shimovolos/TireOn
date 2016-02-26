@@ -14,6 +14,21 @@
                     <frontName>sh_tireon</frontName>
                 </args>
             </sh_tireon>
+            <design>
+                <package>
+                    <name>default</name>
+                </package>
+                <theme>
+                    <default>escrow</default>
+                </theme>
+            </design>
+            <checkout>
+                <args>
+                    <modules>
+                        <SH_Tireon before="Mage_Checkout">SH_Tireon_Checkout</SH_Tireon>
+                    </modules>
+                </args>
+            </checkout>
         </routers>
         <translate>
             <modules>
@@ -46,6 +61,11 @@
             <sh_tireon>
                 <class>SH_Tireon_Block</class>
             </sh_tireon>
+            <checkout>
+                <rewrite>
+                    <onepage>SH_Tireon_Block_Checkout_Onepage</onepage>
+                </rewrite>
+            </checkout>
         </blocks>
         <models>
             <sh_tireon>
@@ -78,5 +98,24 @@
                 </connection>
             </sh_tireon_read>
         </resources>
+        <events>
+            <controller_action_predispatch>
+                <observers>
+                    <sh_tireon>
+                        <type>singleton</type>
+                        <class>SH_Tireon_Model_Observer</class>
+                        <method>hookToControllerActionPreDispatch</method>
+                    </sh_tireon>
+                </observers>
+            </controller_action_predispatch>
+            <customer_account_redirect>
+                <observers>
+                    <sh_tireon>
+                        <class>SH_Tireon_Model_Observer</class>
+                        <method>hookToCustomerAccount</method>
+                    </sh_tireon>
+                </observers>
+            </customer_account_redirect>
+        </events>
     </global>
 </config>

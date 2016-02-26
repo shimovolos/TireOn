@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="root">
+            <reference name="top.links">
+                <action method="removeLinkByUrl"><url helper="customer/getAccountUrl"></url></action>
+                <remove name="wishlist_link" />
+            </reference>
+        </reference>
+
+    </default>
+    <customer_logged_out>
+        <reference name="top.links">
+            <action method="removeLinkByUrl"><url helper="customer/getLoginUrl"></url></action>
+        </reference>
+    </customer_logged_out>
+
+    <customer_logged_in>
+        <reference name="top.links">
+            <action method="removeLinkByUrl"><url helper="customer/getLogoutUrl"></url></action>
+        </reference>
+    </customer_logged_in>
+
+    <checkout_cart_index>
+        <remove name="checkout.cart.shipping" />
+    </checkout_cart_index>
+
+    <checkout_onepage_index>
+        <reference name="head">
+            <action method="addItem"><type>skin_js</type><name>js/checkout.js</name></action>
+        </reference>
+    </checkout_onepage_index>
+</layout>
