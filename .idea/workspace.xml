@@ -2,48 +2,346 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2dcf1e1-7148-4043-9810-0ad806d7f6b7" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--0\mage---7ca_DB_PDO_MYSQL_DDL_log_visitor_info_1" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--0\mage---internal-metadatas---7ca_DB_PDO_MYSQL_DDL_log_visitor_info_1" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--1\mage---7ca_Zend_LocaleC_ru_RU_currencynumber_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--1\mage---7ca_Zend_LocaleC_ru_RU_currencysymbol_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--1\mage---7ca_Zend_LocaleC_ru_RU_nametocurrency_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--1\mage---internal-metadatas---7ca_Zend_LocaleC_ru_RU_currencynumber_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--1\mage---internal-metadatas---7ca_Zend_LocaleC_ru_RU_currencysymbol_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--1\mage---internal-metadatas---7ca_Zend_LocaleC_ru_RU_nametocurrency_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--4\mage---7ca_CORE_CACHE_OPTIONS" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--4\mage---7ca_Zend_LocaleC_ru_RU_currencysymbol_BYR" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--4\mage---7ca_Zend_LocaleC_ru_RU_currencysymbol_RUB" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--4\mage---7ca_Zend_LocaleC_ru_RU_currencytoname_BYR" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--4\mage---7ca_Zend_LocaleC_ru_RU_nametocurrency_BYR" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--4\mage---7ca_Zend_LocaleC_ru_RU_nametocurrency_RUB" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--4\mage---internal-metadatas---7ca_CORE_CACHE_OPTIONS" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--4\mage---internal-metadatas---7ca_Zend_LocaleC_ru_RU_currencysymbol_BYR" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--4\mage---internal-metadatas---7ca_Zend_LocaleC_ru_RU_currencysymbol_RUB" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--4\mage---internal-metadatas---7ca_Zend_LocaleC_ru_RU_currencytoname_BYR" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--4\mage---internal-metadatas---7ca_Zend_LocaleC_ru_RU_nametocurrency_BYR" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--4\mage---internal-metadatas---7ca_Zend_LocaleC_ru_RU_nametocurrency_RUB" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--5\mage---7ca_Zend_LocaleC_ru_RU_currencytoregion_RU" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--5\mage---internal-metadatas---7ca_Zend_LocaleC_ru_RU_currencytoregion_RU" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--6\mage---7ca_DB_PDO_MYSQL_DDL_catalog_product_entity_1" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--6\mage---internal-metadatas---7ca_DB_PDO_MYSQL_DDL_catalog_product_entity_1" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--7\mage---7ca_Zend_LocaleL_ru_RU_month_gregorian_format_abbreviated" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--7\mage---internal-metadatas---7ca_Zend_LocaleL_ru_RU_month_gregorian_format_abbreviated" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--8\mage---7ca_Zend_LocaleL_ru_RU_day_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--8\mage---internal-metadatas---7ca_Zend_LocaleL_ru_RU_day_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--9\mage---7ca_DB_PDO_MYSQL_DDL_log_url_1" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--9\mage---7ca_Zend_LocaleC_ru_RU_date_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--9\mage---7ca_Zend_LocaleC_ru_RU_time_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--9\mage---internal-metadatas---7ca_DB_PDO_MYSQL_DDL_log_url_1" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--9\mage---internal-metadatas---7ca_Zend_LocaleC_ru_RU_date_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--9\mage---internal-metadatas---7ca_Zend_LocaleC_ru_RU_time_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--a\mage---7ca_Zend_LocaleL_ru_RU_month_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--a\mage---internal-metadatas---7ca_Zend_LocaleL_ru_RU_month_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--b\mage---7ca_Zend_LocaleL_ru_RU_symbols_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--b\mage---internal-metadatas---7ca_Zend_LocaleL_ru_RU_symbols_" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--d\mage---7ca_DB_PDO_MYSQL_DDL_log_url_info_1" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\TireOn\var\cache\mage--d\mage---internal-metadatas---7ca_DB_PDO_MYSQL_DDL_log_url_info_1" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/locale/ru_RU/SH_Tireon.csv" afterPath="$PROJECT_DIR$/app/locale/ru_RU/SH_Tireon.csv" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\etc\widget.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/etc/widget.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\layout\catalog.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/layout/catalog.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\layout\catalogsearch.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/layout/catalogsearch.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\layout\checkout.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/layout/checkout.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\layout\contacts.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/layout/contacts.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\layout\customer.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/layout/customer.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\layout\googlecheckout.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/layout/googlecheckout.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\layout\newsletter.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/layout/newsletter.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\layout\page.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/layout/page.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\layout\review.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/layout/review.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\layout\rss.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/layout/rss.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\layout\sales\billing_agreement.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/layout/sales/billing_agreement.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\layout\sales\recurring_profile.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/layout/sales/recurring_profile.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\layout\sendfriend.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/layout/sendfriend.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\layout\tag.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/layout/tag.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\layout\wishlist.xml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/layout/wishlist.xml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\locale\en_US\translate.csv" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/locale/en_US/translate.csv" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\category\page.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/category/page.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\category\view.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/category/view.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\category\widget\link\link_block.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/category/widget/link/link_block.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\category\widget\link\link_inline.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/category/widget/link/link_inline.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\layer\filter.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/layer/filter.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\layer\state.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/layer/state.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\layer\view.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/layer/view.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\msrp\popup.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/msrp/popup.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\navigation\left.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/navigation/left.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\navigation\top.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/navigation/top.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\compare\list.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/compare/list.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\compare\sidebar.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/compare/sidebar.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\gallery.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/gallery.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\list.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/list.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\list\related.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/list/related.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\list\toolbar.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/list/toolbar.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\list\upsell.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/list/upsell.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\new.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/new.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\price.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/price.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\price_msrp.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/price_msrp.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\price_msrp_item.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/price_msrp_item.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\price_msrp_noform.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/price_msrp_noform.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\price_msrp_rss.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/price_msrp_rss.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\additional.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/additional.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\addto.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/addto.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\addtocart.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/addtocart.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\attributes.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/attributes.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\description.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/description.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\media.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/media.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\media_old.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/media_old.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\options.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/options.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\options\js.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/options/js.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\options\type\date.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/options/type/date.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\options\type\default.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/options/type/default.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\options\type\file.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/options/type/file.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\options\type\select.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/options/type/select.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\options\type\text.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/options/type/text.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\options\wrapper.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/options/wrapper.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\options\wrapper\bottom.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/options/wrapper/bottom.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\price.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/price.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\price_clone.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/price_clone.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\tabs.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/tabs.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\tierprices.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/tierprices.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\type\configurable.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/type/configurable.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\type\default.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/type/default.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\type\grouped.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/type/grouped.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\type\simple.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/type/simple.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\view\type\virtual.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/view/type/virtual.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\widget\link\link_block.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/widget/link/link_block.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\widget\link\link_inline.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/widget/link/link_inline.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\widget\new\content\new_grid.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/widget/new/content/new_grid.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\product\widget\new\content\new_list.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/product/widget/new/content/new_list.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\rss\product\price.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/rss/product/price.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\seo\sitemap.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/seo/sitemap.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\seo\sitemap\container.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/seo/sitemap/container.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\catalog\seo\tree.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/catalog/seo/tree.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\cart.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/cart.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\cart\coupon.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/cart/coupon.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\cart\crosssell.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/cart/crosssell.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\cart\item\configure\updatecart.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/cart/item/configure/updatecart.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\cart\item\default.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/cart/item/default.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\cart\noItems.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/cart/noItems.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\cart\render\default.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/cart/render/default.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\cart\render\simple.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/cart/render/simple.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\cart\shipping.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/cart/shipping.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\cart\sidebar.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/cart/sidebar.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\cart\sidebar\default.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/cart/sidebar/default.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\cart\sidebar_header.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/cart/sidebar_header.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\cart\totals.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/cart/totals.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\multishipping\address\select.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/multishipping/address/select.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\multishipping\addresses.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/multishipping/addresses.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\multishipping\agreements.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/multishipping/agreements.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\multishipping\billing.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/multishipping/billing.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\multishipping\billing\items.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/multishipping/billing/items.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\multishipping\item\default.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/multishipping/item/default.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\multishipping\link.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/multishipping/link.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\multishipping\overview.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/multishipping/overview.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\multishipping\overview\item.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/multishipping/overview/item.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\multishipping\shipping.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/multishipping/shipping.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\multishipping\state.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/multishipping/state.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\multishipping\success.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/multishipping/success.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\agreements.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/agreements.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\billing.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/billing.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\failure.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/failure.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\link.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/link.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\login.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/login.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\payment.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/payment.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\payment\info.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/payment/info.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\payment\methods.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/payment/methods.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\progress.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/progress.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\review.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/review.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\review\button.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/review/button.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\review\info.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/review/info.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\review\item.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/review/item.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\review\totals.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/review/totals.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\shipping.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/shipping.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\shipping_method.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/shipping_method.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\shipping_method\additional.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/shipping_method/additional.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\onepage\shipping_method\available.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/onepage/shipping_method/available.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\success.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/success.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\total\default.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/total/default.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\total\nominal.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/total/nominal.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\checkout\total\tax.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/checkout/total/tax.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\newsletter\subscribe.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/newsletter/subscribe.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\1column.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/1column.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\2columns-left.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/2columns-left.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\2columns-right.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/2columns-right.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\3columns.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/3columns.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\empty.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/empty.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\html\breadcrumbs.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/html/breadcrumbs.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\html\footer.content.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/html/footer.content.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\html\footer.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/html/footer.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\html\head.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/html/head.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\html\header.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/html/header.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\html\homecontent.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/html/homecontent.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\html\notices.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/html/notices.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\html\pager.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/html/pager.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\html\top.links.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/html/top.links.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\html\topmenu.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/html/topmenu.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\html\wrapper.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/html/wrapper.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\js\calendar.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/js/calendar.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\js\cookie.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/js/cookie.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\popup.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/popup.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\print.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/print.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\redirect.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/redirect.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\switch\flags.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/switch/flags.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\switch\languages.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/switch/languages.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\switch\stores.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/switch/stores.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\template\container.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/template/container.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\template\links.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/template/links.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\app\design\frontend\default\mp_toolshop\template\page\template\linksblock.phtml" afterPath="$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/template/linksblock.phtml" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\css\easytabs.css" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/css/easytabs.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\css\oauth-simple.css" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/css/oauth-simple.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\css\print.css" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/css/print.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\css\styles-ie.css" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/css/styles-ie.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\css\styles.css" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/css/styles.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\favicon.ico" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/favicon.ico" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bg_search_icon.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bg_search_icon.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_account_box.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_account_box.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_block-actions.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_block-actions.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_block-layered-dd.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_block-layered-dd.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_block-layered-li.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_block-layered-li.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_body.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_body.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_collapse-gm.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_collapse-gm.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_collapse.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_collapse.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_main1.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_main1.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_main2.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_main2.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_nav1.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_nav1.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_nav2.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_nav2.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_pipe1.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_pipe1.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_pipe2.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_pipe2.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_pipe3.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_pipe3.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_product_collateral.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_product_collateral.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_rating.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_rating.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\bkg_sp-methods.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/bkg_sp-methods.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\breadcrum.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/breadcrum.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\btn-cart.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/btn-cart.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\btn_edit.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/btn_edit.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\btn_gm-close.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/btn_gm-close.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\btn_google_checkout.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/btn_google_checkout.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\btn_paypal_checkout.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/btn_paypal_checkout.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\btn_place_order.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/btn_place_order.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\btn_previous.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/btn_previous.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\btn_proceed_to_checkout.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/btn_proceed_to_checkout.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\btn_proceed_to_checkout_dis.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/btn_proceed_to_checkout_dis.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\btn_remove.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/btn_remove.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\btn_remove2.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/btn_remove2.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\btn_search.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/btn_search.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\btn_trash.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/btn_trash.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\btn_window_close.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/btn_window_close.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\calendar.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/calendar.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\catalog\product\placeholder\image.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/catalog/product/placeholder/image.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\catalog\product\placeholder\small_image.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/catalog/product/placeholder/small_image.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\catalog\product\placeholder\thumbnail.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/catalog/product/placeholder/thumbnail.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\check-out-icon-white.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/check-out-icon-white.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\check-out-icon.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/check-out-icon.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\cvv.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/cvv.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\cvv.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/cvv.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\fam_book_open.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/fam_book_open.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\grid-cal.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/grid-cal.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_arrow-top.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_arrow-top.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_asc_arrow.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_asc_arrow.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_availability_only.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_availability_only.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_availability_only_arrow.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_availability_only_arrow.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_block-currency.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_block-currency.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_block-poll.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_block-poll.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_block-related.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_block-related.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_block-subscribe.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_block-subscribe.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_block-tags.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_block-tags.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_block-viewed.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_block-viewed.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_desc_arrow.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_desc_arrow.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_discount.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_discount.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_folder-table.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_folder-table.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_ma-info.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_ma-info.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_ma-reviews.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_ma-reviews.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_ma-tags.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_ma-tags.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_msg-error.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_msg-error.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_msg-note.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_msg-note.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_msg-success.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_msg-success.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_notice.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_notice.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_page1.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_page1.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_page2.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_page2.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_pager-next.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_pager-next.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_pager-prev.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_pager-prev.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_print.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_print.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_rss-big.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_rss-big.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_rss.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_rss.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_search_criteria.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_search_criteria.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_shipping.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_shipping.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_tag_add.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_tag_add.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_tier.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_tier.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_type_grid.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_type_grid.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\i_type_list.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/i_type_list.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\logo.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/logo.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\logo_arial.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/logo_arial.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\magnifier_handle.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/magnifier_handle.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\map_popup_arrow.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/map_popup_arrow.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\404_callout1.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/404_callout1.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\404_callout2.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/404_callout2.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\about_us_img.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/about_us_img.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\best_selling_img01.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/best_selling_img01.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\best_selling_img02.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/best_selling_img02.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\best_selling_img03.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/best_selling_img03.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\best_selling_img04.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/best_selling_img04.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\best_selling_img05.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/best_selling_img05.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\best_selling_img06.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/best_selling_img06.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\cell_phone_landing_banner1.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/cell_phone_landing_banner1.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\col_left_callout.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/col_left_callout.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\col_right_callout.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/col_right_callout.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\electronics_cellphones.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/electronics_cellphones.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\electronics_digitalcameras.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/electronics_digitalcameras.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\electronics_laptops.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/electronics_laptops.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\furniture_callout_spot.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/furniture_callout_spot.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\furnitures_bed_room.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/furnitures_bed_room.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\furnitures_living_room.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/furnitures_living_room.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\head_electronics_cellphones.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/head_electronics_cellphones.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\head_electronics_digicamera.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/head_electronics_digicamera.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\head_electronics_laptops.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/head_electronics_laptops.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\laptop_callout_mid1.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/laptop_callout_mid1.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\laptop_callout_mid2.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/laptop_callout_mid2.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\laptop_callout_mid3.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/laptop_callout_mid3.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\laptop_callout_spot.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/laptop_callout_spot.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\media\shirts_landing_banner1.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/media/shirts_landing_banner1.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\nav-category.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/nav-category.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\np_cart_thumb.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/np_cart_thumb.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\np_more_img.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/np_more_img.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\np_product_main.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/np_product_main.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\np_thumb.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/np_thumb.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\np_thumb2.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/np_thumb2.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\opc-ajax-loader.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/opc-ajax-loader.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\pag-li.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/pag-li.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\pager_arrow_left.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/pager_arrow_left.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\pager_arrow_right.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/pager_arrow_right.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\product_zoom_overlay_magnif.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/product_zoom_overlay_magnif.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\slider_bg.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/slider_bg.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\slider_btn_zoom_in.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/slider_btn_zoom_in.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\slider_btn_zoom_out.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/slider_btn_zoom_out.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\spacer.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/spacer.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\validation_advice_bg.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/validation_advice_bg.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\xmlconnect\catalog\category\placeholder\image.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/xmlconnect/catalog/category/placeholder/image.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\xmlconnect\catalog\category\placeholder\small_image.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/xmlconnect/catalog/category/placeholder/small_image.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\xmlconnect\catalog\category\placeholder\thumbnail.jpg" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/xmlconnect/catalog/category/placeholder/thumbnail.jpg" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\xmlconnect\tab_account.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/xmlconnect/tab_account.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\xmlconnect\tab_cart.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/xmlconnect/tab_cart.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\xmlconnect\tab_home.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/xmlconnect/tab_home.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\xmlconnect\tab_more.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/xmlconnect/tab_more.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\xmlconnect\tab_page.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/xmlconnect/tab_page.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\xmlconnect\tab_search.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/xmlconnect/tab_search.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\images\xmlconnect\tab_shop.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/images/xmlconnect/tab_shop.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\js\jquery-1.7.2.min.js" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/js/jquery-1.7.2.min.js" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\js\jquerynoconflict.js" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/js/jquerynoconflict.js" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\css\cloud-zoom.css" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/css/cloud-zoom.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\css\global.css" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/css/global.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\css\jquery.fancybox-1.3.4.css" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/css/jquery.fancybox-1.3.4.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\css\jquery.thickbox.css" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/css/jquery.thickbox.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\css\stylefancy.css" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/css/stylefancy.css" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\Thumbs.db" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/Thumbs.db" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\arrow-next.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/arrow-next.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\arrow-next.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/arrow-next.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\arrow-prev.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/arrow-prev.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\arrow-prev.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/arrow-prev.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\background.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/background.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancy_nav_left.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancy_nav_left.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancy_nav_right.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancy_nav_right.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_close.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_close.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_loading.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_loading.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_nav_left.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_nav_left.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_nav_right.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_nav_right.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_shadow_e.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_shadow_e.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_shadow_n.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_shadow_n.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_shadow_ne.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_shadow_ne.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_shadow_nw.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_shadow_nw.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_shadow_s.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_shadow_s.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_shadow_se.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_shadow_se.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_shadow_sw.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_shadow_sw.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_shadow_w.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_shadow_w.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_title_left.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_title_left.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_title_main.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_title_main.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_title_over.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_title_over.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancy_title_right.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancy_title_right.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancybox-x.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancybox-x.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancybox-y.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancybox-y.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox\fancybox.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox/fancybox.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox_loading.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox_loading.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\fancybox_sprite.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/fancybox_sprite.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\loader_transparent.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/loader_transparent.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\loadingAnimation.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/loadingAnimation.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\loading_background.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/loading_background.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\md_quickview_preview.png" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/md_quickview_preview.png" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\opc-ajax-loader.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/opc-ajax-loader.gif" />
+      <change type="MOVED" beforePath="C:\wamp\www\TireOn\skin\frontend\default\mp_toolshop\quickview\images\quick_look.gif" afterPath="$PROJECT_DIR$/skin/frontend/default/tireon/quickview/images/quick_look.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/local/SH/Tireon/etc/config.xml" afterPath="$PROJECT_DIR$/app/code/local/SH/Tireon/etc/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_1.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_1.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_2.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_2.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_3.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_3.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_4.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_4.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_5.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_5.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_6.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_6.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_7.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_7.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_8.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_8.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/locks/index_process_9.lock" afterPath="$PROJECT_DIR$/var/locks/index_process_9.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TireOn.iws" />
@@ -65,31 +363,7 @@
     <favorites_list name="TireOn" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/local/SH/Tireon/etc/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SH_Tireon.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/locale/ru_RU/SH_Tireon.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,9 +383,10 @@
         <option value="$PROJECT_DIR$/app/locale/ru_RU/Mage_XmlConnect.csv" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/code/local/SH/Tireon/Model/CSV.php" />
-        <option value="$PROJECT_DIR$/app/code/local/SH/Tireon/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/locale/ru_RU/SH_Tireon.csv" />
         <option value="$PROJECT_DIR$/app/design/frontend/default/mp_toolshop/template/page/html/topmenu.phtml" />
+        <option value="$PROJECT_DIR$/app/code/local/SH/Tireon/sql/sh_tireon_setup/mysql4-upgrade-0.1.2-0.1.3.php" />
+        <option value="$PROJECT_DIR$/app/code/local/SH/Tireon/etc/config.xml" />
       </list>
     </option>
   </component>
@@ -121,6 +396,9 @@
   </component>
   <component name="NamedScopeManager">
     <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -152,8 +430,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -162,540 +438,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="var" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locale" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ru_RU" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="locale" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp_toolshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp_toolshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp_toolshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mp_toolshop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="design" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tireon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sh_tireon_setup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tireon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tireon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Eav" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Mysql4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tireon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tireon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SH" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tireon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TireOn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../escrow.loc" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#PerlConfigurationType" factoryName="Perl">
@@ -750,9 +504,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25305623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2591687" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -892,7 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03219697">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,7 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08374384">
           <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
@@ -911,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.3349693">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8552147">
           <caret line="62" column="112" selection-start-line="62" selection-start-column="112" selection-end-line="62" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,23 +684,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/local/SH/Tireon/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/mp_toolshop/template/page/html/topmenu.phtml">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/tireon/template/page/html/topmenu.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19416244">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,11 +698,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/tireon/etc/widget.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8799049">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/SH/Tireon/sql/sh_tireon_setup/mysql4-upgrade-0.1.2-0.1.3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20858896">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/default/tireon/layout/catalog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35552913">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/local/SH/Tireon/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08085612">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
