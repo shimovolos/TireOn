@@ -6,7 +6,7 @@ $installer = $this;
 
 $installer->startSetup();
 
-$attributesArray = array('ĞŸÑ€Ğ¾Ğ¸Ğ·Ğ²Ğ¾Ğ´Ğ¸Ñ‚ĞµĞ»ÑŒ', 'ĞœĞ¾Ğ´ĞµĞ»ÑŒ', 'Ğ¨Ğ¸Ñ€Ğ¸Ğ½Ğ°' , 'ĞŸÑ€Ğ¾Ñ„Ğ¸Ğ»ÑŒ', 'Ğ”Ğ¸Ğ°Ğ¼ĞµÑ‚Ñ€', 'Ğ˜Ğ½Ğ´ĞµĞºÑ Ğ½Ğ°Ğ³Ñ€ÑƒĞ·ĞºĞ¸', 'Ğ˜Ğ½Ğ´ĞµĞºÑ ÑĞºĞ¾Ñ€Ğ¾ÑÑ‚Ğ¸', 'Ğ¡ĞµĞ·Ğ¾Ğ½Ğ½Ğ¾ÑÑ‚ÑŒ');
+$attributesArray = array('Ïğîèçâîäèòåëü', 'Ìîäåëü', 'Øèğèíà' , 'Ïğîôèëü', 'Äèàìåòğ', 'Èíäåêñ íàãğóçêè', 'Èíäåêñ ñêîğîñòè', 'Ñåçîííîñòü');
 
 $attributeResourceModel = Mage::getResourceModel('eav/entity_attribute');
 
@@ -37,7 +37,9 @@ foreach($attributesArray as $attributeName) {
     $attributeId = $attributeResourceModel->getIdByCode('catalog_product', $attributeCode);
     if ($attributeId) {
         $attribute = Mage::getModel('catalog/resource_eav_attribute')->load($attributeId);
-        $attribute->setIsVisibleOnFront(1)->save();
+        $attribute->setIsVisibleOnFront(1);
+        $attribute->setIsComparable(1);
+        $attribute->save();
     }
 }
 
