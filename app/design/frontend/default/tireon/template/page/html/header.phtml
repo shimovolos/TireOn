@@ -28,36 +28,32 @@
  */
 ?>
 <div class="header-container">
-	<div class="top-header-container">
-		<div class="top-header">
-			<?php echo $this->getChildHtml('store_language'); ?>
-			<?php echo $this->getChildHtml('cart_header') ?>
-			<?php echo $this->getChildHtml('topLinks') ?>
-		</div>
-	</div>
+    <div class="top-header-container">
+        <div class="top-header">
+            <?php echo $this->getChildHtml('store_language'); ?>
+            <?php echo $this->getChildHtml('cart_header') ?>
+            <?php echo $this->getChildHtml('topLinks') ?>
+        </div>
+    </div>
     <div class="header">
         <?php if ($this->getIsHomePage()):?>
-        <h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
+            <h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
         <?php else:?>
-        <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+            <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
         <?php endif?>
         <div class="quick-access">
-			<?php //echo $this->getChildHtml('store_language') ?>
+            <?php //echo $this->getChildHtml('store_language') ?>
         </div>
 
         <?php echo $this->getChildHtml('topContainer'); ?>
-		
-		<?php echo $this->getChildHtml('topMenu') ?>
-		
-		<?php echo $this->getChildHtml('topSearch') ?>
-		
-		<?php if($this->getChildHtml('header_bottom')): ?>
-			<?php echo $this->getChildHtml('header_bottom'); ?>
-		<?php else:?>
-			<ul class="header_bottom">
-				<li>if this message display, please new static block with id="head_bottom"</li>
-			</ul>
-		<?php endif;?>
+
+        <?php echo $this->getChildHtml('topMenu') ?>
+
+        <?php echo $this->getChildHtml('topSearch') ?>
+        <?php if($this->getIsHomePage()) {
+                echo $this->getLayout()->createBlock('imageslider/imageslider')->setTemplate('imageslider/imageslider.phtml')->toHtml();
+            }
+        ?>
     </div>
 </div>
 
