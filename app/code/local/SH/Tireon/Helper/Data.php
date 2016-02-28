@@ -8,17 +8,24 @@ class SH_Tireon_Helper_Data extends Mage_Core_Helper_Abstract
     /**
      * Generate latin word from russian
      * @param $string
-     * @return mixed
+     * @param bool $isAttribute
+     * @return string
      */
-    public function transliterate($string)
+    public function transliterate($string, $isAttribute = false)
     {
+        if($isAttribute) {
+            $delimiter = '_';
+        } else {
+            $delimiter = '-';
+        }
+
         $catalogProductHelper = Mage::helper('catalog/product_url');
         /* @vat $catalogProductHelper Mage_Catalog_Helper_Product_Url*/
 
         $tmp = $catalogProductHelper->format($string);
-        $str = preg_replace('#[^0-9a-z]+#i', '-', $tmp);
+        $str = preg_replace('#[^0-9a-z]+#i', $delimiter, $tmp);
         $str = strtolower($str);
-        $str = trim($str, '-');
+        $str = trim($str, $delimiter);
 
         return $str;
     }

@@ -1,5 +1,8 @@
 .idea
 .idea/*
 var/*
+var/locks/
+var/locks/*
 media/catalog/*/cache
 media/*
+app/etc/local.xml

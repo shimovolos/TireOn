@@ -24,7 +24,7 @@
                     <expanded>1</expanded>
                     <fields>
                         <price_percent translate="label">
-                            <label>Price + x(%)</label>
+                            <label>Price - x(%)</label>
                             <validate>required-entry validate-digits</validate>
                             <sort_order>1</sort_order>
                             <show_in_default>1</show_in_default>

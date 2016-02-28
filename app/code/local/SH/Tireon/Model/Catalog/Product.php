@@ -61,7 +61,8 @@ class SH_Tireon_Model_Catalog_Product
                     ->setShortDescription($value[self::CSV_COLUMN_PRODUCT_NAME])
                     ->setPrice($this->_calProductFinalPrice($value[self::CSV_COLUMN_PRODUCT_PRICE]))
                     ->setWeight(0)
-                    ->setStockData(array(
+                    ->setStockData(
+                        array(
                             'use_config_manage_stock' => 0,
                             'manage_stock' => 1,
                             'is_in_stock' => 1,
@@ -73,7 +74,8 @@ class SH_Tireon_Model_Catalog_Product
                     if ($key != self::CSV_COLUMN_PRODUCT_COUNT && $key != self::CSV_COLUMN_PRODUCT_PRICE &&
                         $key != self::CSV_COLUMN_PRODUCT_NAME && $key != self::CSV_COLUMN_CATEGORY
                     ) {
-                        $productModel->setData($shHelper->transliterate($key), $productValue);
+                        $attrValue = $this->_setAttributeEntities($shHelper->transliterate($key, true), $productValue);
+                        $productModel->setData($shHelper->transliterate($key, true), $attrValue);
                     }
                 }
 
@@ -116,9 +118,60 @@ class SH_Tireon_Model_Catalog_Product
      */
     protected function _calProductFinalPrice($value)
     {
-        $finalPrice = $value + ($value/100) * Mage::getStoreConfig('sh_tireon_settings/general/price_percent');
+        $finalPrice = $value - ($value/100) * Mage::getStoreConfig('sh_tireon_settings/general/price_percent');
         $finalPrice = round($finalPrice, -Mage::getStoreConfig('sh_tireon_settings/general/round'));
 
         return $finalPrice;
+    }
+
+    /**
+     * @param $attributeCode
+     * @param $attributeValue
+     * @return mixed
+     */
+    protected function _setAttributeEntities($attributeCode, $attributeValue)
+    {
+        $attributeModel = Mage::getModel('eav/entity_attribute');
+        /* @var $attributeModel Mage_Eav_Model_Attribute*/
+        $attributeOptionsModel = Mage::getModel('eav/entity_attribute_source_table');
+        $attributeCode = $attributeModel->getIdByCode('catalog_product', $attributeCode);
+        $attribute = $attributeModel->load($attributeCode);
+        $attributeOptionsModel->setAttribute($attribute);
+        $options = $attributeOptionsModel->getAllOptions(false);
+
+        $valueExists = false;
+        foreach ($options as $option) {
+            if ($option['label'] == $attributeValue) {
+                $valueExists = true;
+                break;
+            }
+        }
+
+        if (!$valueExists) {
+            $attribute->setData(
+                'option',
+                array(
+                    'value' => array(
+                        'option' => array($attributeValue)
+                    )
+                )
+            );
+            $attribute->save();
+        }
+
+        $attribute = Mage::getSingleton('eav/config')->getAttribute('catalog_product', $attributeCode);
+
+        if ($attribute->getFrontendInput() == 'select') {
+            $attributeSelectTagOptions = $attribute->getSource()->getAllOptions(false);
+
+            foreach ($attributeSelectTagOptions as $option) {
+
+                if ($option['label'] == $attributeValue) {
+                    $attrValue = $option['value'];
+                }
+            }
+        }
+
+        return $attrValue;
     }
 }

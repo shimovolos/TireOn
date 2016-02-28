@@ -5,6 +5,8 @@
  */
 class SH_Tireon_Model_Catalog_Category
 {
+    const PARENT_CATEGORY_URL_KEY = 'shiny';
+
     /**
      * @var array
      */
@@ -26,9 +28,6 @@ class SH_Tireon_Model_Catalog_Category
     {
         $categories = $this->_category;
 
-        $defaultStore = Mage::getModel('core/store')->load(Mage_Core_Model_App::DISTRO_STORE_ID);
-        $rootCategoryId = $defaultStore->getRootCategoryId();
-
         foreach ($categories as $category) {
             $urlKey = Mage::helper('sh_tireon')->transliterate($category);
             $categoryModel = Mage::getModel('catalog/category');
@@ -36,17 +35,17 @@ class SH_Tireon_Model_Catalog_Category
             try {
 
                 $categoryCollection = Mage::helper('sh_tireon')->checkExistingModel('catalog/category', array('field' => 'url_key', 'value' => $urlKey));
+                $parentCategory = Mage::helper('sh_tireon')->checkExistingModel('catalog/category', array('field' => 'url_key', 'value' => self::PARENT_CATEGORY_URL_KEY));
 
                 if($categoryCollection->isEmpty()) {
                     $categoryModel
                         ->setName($category)
                         ->setUrlKey($urlKey)
                         ->setIsActive(1)
+                        ->setIsAnchor(1)
                         ->setDisplayMode('PRODUCTS')
-                        ->setIsAnchor(0)
                         ->setStoreId(Mage::app()->getStore()->getId());
 
-                    $parentCategory = Mage::getModel('catalog/category')->load($rootCategoryId);
                     $categoryModel->setPath($parentCategory->getPath());
 
                     $categoryModel->save();

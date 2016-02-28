@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
     <default>
+        <reference name="head">
+            <action method="addItem"><type>skin_js</type><script>js/jquery-1.7.2.min.js</script></action>
+            <action method="addItem"><type>skin_js</type><script>js/jquerynoconflict.js</script></action>
+        </reference>
         <reference name="root">
             <reference name="top.links">
                 <action method="removeLinkByUrl"><url helper="customer/getAccountUrl"></url></action>

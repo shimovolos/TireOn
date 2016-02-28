@@ -10,11 +10,15 @@ $attributesArray = array('Ïğîèçâîäèòåëü', 'Ìîäåëü', 'Øèğèíà' , 'Ïğîôèëü', 'Äèàìå
 
 $attributeResourceModel = Mage::getResourceModel('eav/entity_attribute');
 
+$csvModel = new SH_Tireon_Model_CSV();
+
 $helper = Mage::helper('sh_tireon');
 /* @var $helper SH_Tireon_Helper_Data*/
 foreach($attributesArray as $attributeName) {
 
-    $attributeCode = $helper->transliterate(mb_convert_encoding($attributeName, 'UTF-8', 'Windows-1251'));
+    $attributeCode = $helper->transliterate(mb_convert_encoding($attributeName, 'UTF-8', 'Windows-1251'), true);
+    $attributeValues = $csvModel->getAttributeValues($attributeName);
+
 
     $installer->addAttribute('catalog_product', $attributeCode, array(
             'attribute_set'              => 'Default',
@@ -23,14 +27,18 @@ foreach($attributesArray as $attributeName) {
             'frontend_label'             => mb_convert_encoding($attributeName, 'UTF-8', 'Windows-1251'),
             'global'                     => Mage_Catalog_Model_Resource_Eav_Attribute::SCOPE_GLOBAL,
             'visible'                    => true,
-            'type'                       => 'varchar',
-            'input'                      => 'text',
+            'type'                       => 'int',
+            'input'                      => 'select',
             'system'                     => false,
             'required'                   => false,
             'user_defined'               => 1,
             'searchable'                 => true,
             'visible_in_advanced_search' => false,
             'is_visible_on_front'        => true,
+            'option' =>
+            array (
+                'values' => $attributeValues,
+            ),
         )
     );
 
@@ -39,6 +47,8 @@ foreach($attributesArray as $attributeName) {
         $attribute = Mage::getModel('catalog/resource_eav_attribute')->load($attributeId);
         $attribute->setIsVisibleOnFront(1);
         $attribute->setIsComparable(1);
+        $attribute->setIsFilterable(2);
+        $attribute->setIsFilterableInSearch(1);
         $attribute->save();
     }
 }
