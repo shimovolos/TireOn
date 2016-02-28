@@ -5,7 +5,11 @@
  */
 class SH_Tireon_Model_CSV
 {
-    const CSV_FILE_NAME = 'tyres.csv';
+    const CSV_FILE_NAME_TYRES = 'tyres.csv';
+    const CSV_FILE_NAME_TRUCK_TYRES = 'truck_tyres.csv';
+    const CSV_FILE_NAME_INDIVIDUAL_TYRES = 'industrial_tyres.csv';
+    const CSV_FILE_NAME_WHEELS = 'wheels.csv';
+    const CSV_FILE_NAME_OTHER = 'other.csv';
 
     /**
      * @var $csvPath
@@ -14,11 +18,12 @@ class SH_Tireon_Model_CSV
 
     /**
      * @param null $attribute
+     * @param $fileName
      * @return array
      */
-    public function getAttributeValues($attribute = null)
+    public function getAttributeValues($attribute = null, $fileName)
     {
-        $data = $this->_getCsvData();
+        $data = $this->_getCsvData($fileName);
         $attributeValues = array();
 
         foreach ($data['product'] as $product) {
@@ -33,26 +38,25 @@ class SH_Tireon_Model_CSV
     /**
      * Set Entities as Category, Product
      */
-    public function setEntities()
+    public function setEntities($fileName)
     {
         try {
-            $data = $this->_getCsvData();
+            $data = $this->_getCsvData($fileName);
 
             $category = $data['category'];
             $product = $data['product'];
 
             $shCategoryModel = Mage::getModel('sh_tireon/catalog_category', $category);
             /* @var $shCategoryModel SH_Tireon_Model_Catalog_Category */
-            $shCategoryModel->buildCategory();
+            $shCategoryModel->buildCategory($fileName);
 
             $shProductModel = Mage::getModel('sh_tireon/catalog_product', $product);
             /* @var $shProductModel SH_Tireon_Model_Catalog_Product */
-            $shProductModel->buildProducts();
+            $shProductModel->buildProducts($fileName);
 
         } catch (Exception $e) {
             Mage::throwException($e->getMessage());
         }
-
     }
 
     /**
@@ -64,14 +68,15 @@ class SH_Tireon_Model_CSV
     }
 
     /**
+     * @param $fileName
      * @return array
      */
-    protected function _getCsvData()
+    protected function _getCsvData($fileName)
     {
         $category = array();
         $product = array();
 
-        $csvFile = $this->_getCsvPath() . DS . self::CSV_FILE_NAME;
+        $csvFile = $this->_getCsvPath() . DS . $fileName;
 
         try {
             $csv = new Varien_File_Csv();

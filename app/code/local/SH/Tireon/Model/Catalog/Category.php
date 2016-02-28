@@ -5,7 +5,8 @@
  */
 class SH_Tireon_Model_Catalog_Category
 {
-    const PARENT_CATEGORY_URL_KEY = 'shiny';
+    const PARENT_CATEGORY_URL_KEY_TYRES = 'shiny';
+    const PARENT_CATEGORY_URL_KEY_WHEELS = 'diski';
 
     /**
      * @var array
@@ -22,10 +23,15 @@ class SH_Tireon_Model_Catalog_Category
 
     /**
      * Build Category Tree
-     * @throws Exception
+     * @param $fileName
      */
-    public function buildCategory()
+    public function buildCategory($fileName)
     {
+        if($fileName == SH_Tireon_Model_CSV::CSV_FILE_NAME_WHEELS) {
+            $parentCategoryType = self::PARENT_CATEGORY_URL_KEY_WHEELS;
+        } else {
+            $parentCategoryType = self::PARENT_CATEGORY_URL_KEY_TYRES;
+        }
         $categories = $this->_category;
 
         foreach ($categories as $category) {
@@ -35,7 +41,7 @@ class SH_Tireon_Model_Catalog_Category
             try {
 
                 $categoryCollection = Mage::helper('sh_tireon')->checkExistingModel('catalog/category', array('field' => 'url_key', 'value' => $urlKey));
-                $parentCategory = Mage::helper('sh_tireon')->checkExistingModel('catalog/category', array('field' => 'url_key', 'value' => self::PARENT_CATEGORY_URL_KEY));
+                $parentCategory = Mage::helper('sh_tireon')->checkExistingModel('catalog/category', array('field' => 'url_key', 'value' => $parentCategoryType));
 
                 if($categoryCollection->isEmpty()) {
                     $categoryModel

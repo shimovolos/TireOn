@@ -23,15 +23,22 @@ class SH_Tireon_Model_Catalog_Product
 
     /**
      * Create Products
+     * @param $fileName
      * @throws Exception
      */
-    public function buildProducts()
+    public function buildProducts($fileName)
     {
         $products = $this->_product;
         $shHelper = Mage::helper('sh_tireon');
         /* @var $shHelper SH_Tireon_Helper_Data */
 
         $shHelper->encoding();
+
+        if($fileName == SH_Tireon_Model_CSV::CSV_FILE_NAME_WHEELS) {
+            $fileName = SH_Tireon_Model_Catalog_Category::PARENT_CATEGORY_URL_KEY_WHEELS;
+        } else {
+            $fileName = SH_Tireon_Model_Catalog_Category::PARENT_CATEGORY_URL_KEY_TYRES;
+        }
 
         foreach ($products as $value) {
             $productModel = Mage::getModel('catalog/product');
@@ -51,9 +58,16 @@ class SH_Tireon_Model_Catalog_Product
                 if (!$issetProduct->isEmpty()) {
                     $productModel = $productModel->load($issetProduct->getId());
                 }
-                $productCategoryId = $this->_getProductCategoryId($value[self::CSV_COLUMN_CATEGORY]);
+
+                $urlKey = $shHelper->transliterate($value[self::CSV_COLUMN_CATEGORY]);
+
+                $productCategoryId = $shHelper->checkExistingModel(
+                    'catalog/category',
+                    array('field' => 'url_path', 'value' => $fileName . '/' . $urlKey . '.html')
+                );
+
                 $productModel
-                    ->setCategoryIds(array($productCategoryId))
+                    ->setCategoryIds(array($productCategoryId->getId()))
                     ->setStatus(Mage_Catalog_Model_Product_Status::STATUS_ENABLED)
                     ->setVisibility(Mage_Catalog_Model_Product_Visibility::VISIBILITY_BOTH)
                     ->setSku($shHelper->transliterate($value[self::CSV_COLUMN_PRODUCT_NAME]))
@@ -84,21 +98,6 @@ class SH_Tireon_Model_Catalog_Product
                 Mage::throwException($e->getMessage());
             }
         }
-    }
-
-    /**
-     * @param $categoryName
-     * @return mixed
-     */
-    protected function _getProductCategoryId($categoryName)
-    {
-        $urlKey = Mage::helper('sh_tireon')->transliterate($categoryName);
-        $categoryCollection = Mage::getModel('catalog/category')
-            ->getCollection()
-            ->addAttributeToFilter('url_key', array('eq' => $urlKey))
-            ->getFirstItem();
-
-        return $categoryCollection->getId();
     }
 
     /**

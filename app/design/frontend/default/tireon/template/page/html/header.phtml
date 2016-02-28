@@ -50,7 +50,7 @@
         <?php echo $this->getChildHtml('topMenu') ?>
 
         <?php echo $this->getChildHtml('topSearch') ?>
-        <?php if($this->getIsHomePage()) {
+        <?php if($this->getIsHomePage() && $this->getLayout()->createBlock('imageslider/imageslider')) {
                 echo $this->getLayout()->createBlock('imageslider/imageslider')->setTemplate('imageslider/imageslider.phtml')->toHtml();
             }
         ?>
