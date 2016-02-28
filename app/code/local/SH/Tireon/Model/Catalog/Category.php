@@ -40,8 +40,8 @@ class SH_Tireon_Model_Catalog_Category
 
             try {
 
-                $categoryCollection = Mage::helper('sh_tireon')->checkExistingModel('catalog/category', array('field' => 'url_key', 'value' => $urlKey));
-                $parentCategory = Mage::helper('sh_tireon')->checkExistingModel('catalog/category', array('field' => 'url_key', 'value' => $parentCategoryType));
+                $categoryCollection = Mage::helper('sh_tireon')->checkExistingModel('catalog/category', array('field' => 'url_path', 'value' => $parentCategoryType . '/' . $urlKey . '.html'));
+                $parentCategory = Mage::helper('sh_tireon')->checkExistingModel('catalog/category', array('field' => 'url_path', 'value' => $parentCategoryType . '.html'));
 
                 if($categoryCollection->isEmpty()) {
                     $categoryModel
