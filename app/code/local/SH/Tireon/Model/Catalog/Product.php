@@ -89,7 +89,9 @@ class SH_Tireon_Model_Catalog_Product
                         $key != self::CSV_COLUMN_PRODUCT_NAME && $key != self::CSV_COLUMN_CATEGORY
                     ) {
                         $attrValue = $this->_setAttributeEntities($shHelper->transliterate($key, true), $productValue);
-                        $productModel->setData($shHelper->transliterate($key, true), $attrValue);
+                        if(!empty($attrValue)) {
+                            $productModel->setData($shHelper->transliterate($key, true), $attrValue);
+                        }
                     }
                 }
 

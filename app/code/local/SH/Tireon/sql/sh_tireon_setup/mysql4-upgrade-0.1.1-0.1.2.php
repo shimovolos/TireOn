@@ -10,7 +10,7 @@ $attributesArray = array(
     SH_Tireon_Model_CSV::CSV_FILE_NAME_WHEELS            => array('PCD', 'ET', 'Dia', 'Цвет'),
     SH_Tireon_Model_CSV::CSV_FILE_NAME_TYRES             => array('Производитель', 'Модель', 'Ширина' , 'Профиль', 'Диаметр', 'Индекс нагрузки', 'Индекс скорости', 'Сезонность'),
     SH_Tireon_Model_CSV::CSV_FILE_NAME_TRUCK_TYRES       => array('Норма слойности', 'Применяемость'),
-    SH_Tireon_Model_CSV::CSV_FILE_NAME_INDIVIDUAL_TYRES  => array('Рисунок протектора'),
+    SH_Tireon_Model_CSV::CSV_FILE_NAME_INDUSTRIAL_TYRES  => array('Рисунок протектора'),
 );
 
 $attributeResourceModel = Mage::getResourceModel('eav/entity_attribute');

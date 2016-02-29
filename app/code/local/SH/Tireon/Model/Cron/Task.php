@@ -14,7 +14,7 @@ class SH_Tireon_Model_Cron_Task
         $files = array(
             SH_Tireon_Model_CSV::CSV_FILE_NAME_TYRES,
             SH_Tireon_Model_CSV::CSV_FILE_NAME_WHEELS,
-            SH_Tireon_Model_CSV::CSV_FILE_NAME_INDIVIDUAL_TYRES,
+            SH_Tireon_Model_CSV::CSV_FILE_NAME_INDUSTRIAL_TYRES,
             SH_Tireon_Model_CSV::CSV_FILE_NAME_TRUCK_TYRES,
             SH_Tireon_Model_CSV::CSV_FILE_NAME_OTHER,
         );

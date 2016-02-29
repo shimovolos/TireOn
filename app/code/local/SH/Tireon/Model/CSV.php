@@ -7,7 +7,7 @@ class SH_Tireon_Model_CSV
 {
     const CSV_FILE_NAME_TYRES = 'tyres.csv';
     const CSV_FILE_NAME_TRUCK_TYRES = 'truck_tyres.csv';
-    const CSV_FILE_NAME_INDIVIDUAL_TYRES = 'industrial_tyres.csv';
+    const CSV_FILE_NAME_INDUSTRIAL_TYRES = 'industrial_tyres.csv';
     const CSV_FILE_NAME_WHEELS = 'wheels.csv';
     const CSV_FILE_NAME_OTHER = 'other.csv';
 
