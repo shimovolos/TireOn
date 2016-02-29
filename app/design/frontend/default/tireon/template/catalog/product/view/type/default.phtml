@@ -26,9 +26,9 @@
 ?>
 <?php /* @var $this Mage_Catalog_Block_Product_View_Abstract */?>
 <?php $_product = $this->getProduct() ?>
-
+<?php $stockCount = $_product->getStockItem()->getData('qty');?>
 <?php if ($_product->isAvailable()): ?>
-    <p class="availability in-stock"><?php echo $this->__('Availability:') ?> <span><?php echo $this->__('In stock') ?></span></p>
+    <p class="availability in-stock"><?php echo $this->__('Availability:') ?> <span><?php echo ($stockCount < 20) ? round($stockCount, 2) : '> 20';?></span></p>
 <?php else: ?>
     <p class="availability out-of-stock"><?php echo $this->__('Availability:') ?> <span><?php echo $this->__('Out of stock') ?></span></p>
 <?php endif; ?>
