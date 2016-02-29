@@ -7,6 +7,7 @@ class SH_Tireon_Model_Catalog_Category
 {
     const PARENT_CATEGORY_URL_KEY_TYRES = 'shiny';
     const PARENT_CATEGORY_URL_KEY_WHEELS = 'diski';
+    const PARENT_CATEGORY_URL_KEY_OTHERS = 'rem-materialy';
 
     /**
      * @var array
@@ -29,6 +30,8 @@ class SH_Tireon_Model_Catalog_Category
     {
         if($fileName == SH_Tireon_Model_CSV::CSV_FILE_NAME_WHEELS) {
             $parentCategoryType = self::PARENT_CATEGORY_URL_KEY_WHEELS;
+        } elseif ($fileName == SH_Tireon_Model_CSV::CSV_FILE_NAME_OTHER) {
+            $parentCategoryType = self::PARENT_CATEGORY_URL_KEY_OTHERS;
         } else {
             $parentCategoryType = self::PARENT_CATEGORY_URL_KEY_TYRES;
         }

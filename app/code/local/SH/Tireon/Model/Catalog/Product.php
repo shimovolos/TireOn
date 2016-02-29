@@ -36,6 +36,8 @@ class SH_Tireon_Model_Catalog_Product
 
         if($fileName == SH_Tireon_Model_CSV::CSV_FILE_NAME_WHEELS) {
             $fileName = SH_Tireon_Model_Catalog_Category::PARENT_CATEGORY_URL_KEY_WHEELS;
+        } elseif($fileName == SH_Tireon_Model_CSV::CSV_FILE_NAME_OTHER) {
+            $fileName = SH_Tireon_Model_Catalog_Category::PARENT_CATEGORY_URL_KEY_OTHERS;
         } else {
             $fileName = SH_Tireon_Model_Catalog_Category::PARENT_CATEGORY_URL_KEY_TYRES;
         }
