@@ -35,9 +35,11 @@
     <select class="dynamic_select" style="width: 205px;">
         <option value=""><?php echo Mage::helper('sh_tireon')->__('Please select an option')?></option>
         <?php foreach ($this->getItems() as $_item): ?>
-    <li>
-        <option value="<?php echo $this->urlEscape($_item->getUrl()) ?>"><?php echo $_item->getLabel() ?></option></a>
-    </li>
+            <?php if (!empty($_item->getUrl())): ?>
+                <li>
+                    <option value="<?php echo $this->urlEscape($_item->getUrl()) ?>"><?php echo $_item->getLabel() ?></option>
+                </li>
+            <?php endif;?>
 <?php endforeach ?>
     </select>
 </ol>

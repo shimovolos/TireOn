@@ -88,10 +88,13 @@ class SH_Tireon_Model_Catalog_Product
                     if ($key != self::CSV_COLUMN_PRODUCT_COUNT && $key != self::CSV_COLUMN_PRODUCT_PRICE &&
                         $key != self::CSV_COLUMN_PRODUCT_NAME && $key != self::CSV_COLUMN_CATEGORY
                     ) {
-                        $attrValue = $this->_setAttributeEntities($shHelper->transliterate($key, true), $productValue);
-                        if(!empty($attrValue)) {
-                            $productModel->setData($shHelper->transliterate($key, true), $attrValue);
+                        if(!empty($productValue)) {
+                            $attrValue = $this->_setAttributeEntities($shHelper->transliterate($key, true), $productValue);
+                            if(!empty($attrValue)) {
+                                $productModel->setData($shHelper->transliterate($key, true), $attrValue);
+                            }
                         }
+
                     }
                 }
 
