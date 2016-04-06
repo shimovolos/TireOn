@@ -30,6 +30,19 @@
  *
  * @see Mage_Catalog_Block_Layer_View
  */
+$helper = Mage::helper('sh_tireon');
+/* @var $helper SH_Tireon_Helper_Data*/
+$currentCategoryUrlKey = explode('/', Mage::registry('current_category')->getUrlPath());
+$currentCategoryUrlKey = $currentCategoryUrlKey[0];
+$tyres = array('Производитель', 'Модель', 'Ширина' , 'Профиль', 'Диаметр', 'Индекс нагрузки', 'Индекс скорости', 'Сезонность');
+$wheels = array('PCD', 'ET', 'Dia', 'Цвет');
+
+foreach ($tyres as $tyre) {
+    $tyresAttributes[] = $helper->transliterate(mb_convert_encoding($tyre, 'UTF-8', 'Windows-1251'), true);
+}
+foreach ($wheels as $wheel) {
+    $wheelsAttributes[] = $helper->transliterate(mb_convert_encoding($wheel, 'UTF-8', 'Windows-1251'), true);
+}
 ?>
 <?php if($this->canShowBlock()): ?>
 <div class="block block-layered-nav">
@@ -45,8 +58,14 @@
                 <?php $_filters = $this->getFilters() ?>
                 <?php foreach ($_filters as $_filter): ?>
                 <?php if($_filter->getItemsCount()): ?>
-                    <dt><?php echo $this->__($_filter->getName()) ?></dt>
-                    <dd><?php echo $_filter->getHtml() ?></dd>
+                        <?php
+                        if(($currentCategoryUrlKey == SH_Tireon_Model_Catalog_Category::PARENT_CATEGORY_URL_KEY_WHEELS &&
+                        in_array($_filter->getData('attribute_model')->getAttributeCode(), $wheelsAttributes)) ||
+                            ($currentCategoryUrlKey == SH_Tireon_Model_Catalog_Category::PARENT_CATEGORY_URL_KEY_TYRES &&
+                                in_array($_filter->getData('attribute_model')->getAttributeCode(), $tyresAttributes))):?>
+                            <dt><?php echo $this->__($_filter->getName()) ?></dt>
+                            <dd><?php echo $_filter->getHtml() ?></dd>
+                        <?php endif;?>
                 <?php endif; ?>
                 <?php endforeach; ?>
             </dl>

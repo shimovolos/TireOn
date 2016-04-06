@@ -50,6 +50,15 @@
                             <show_in_store>1</show_in_store>
                             <frontend_type>text</frontend_type>
                         </round>
+                        <custom_product_sku translate="label">
+                            <label>Custom Product SKU</label>
+                            <validate>required-entry</validate>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <frontend_type>text</frontend_type>
+                        </custom_product_sku>
                     </fields>
                 </general>
             </groups>

@@ -23,10 +23,11 @@ class SH_Tireon_Model_Catalog_Product
 
     /**
      * Create Products
+     *
      * @param $fileName
-     * @throws Exception
+     * @param bool $create
      */
-    public function buildProducts($fileName)
+    public function buildProducts($fileName, $create = false)
     {
         $products = $this->_product;
         $shHelper = Mage::helper('sh_tireon');
@@ -34,13 +35,11 @@ class SH_Tireon_Model_Catalog_Product
 
         $shHelper->encoding();
 
-        if($fileName == SH_Tireon_Model_CSV::CSV_FILE_NAME_WHEELS) {
-            $fileName = SH_Tireon_Model_Catalog_Category::PARENT_CATEGORY_URL_KEY_WHEELS;
-        } elseif($fileName == SH_Tireon_Model_CSV::CSV_FILE_NAME_OTHER) {
-            $fileName = SH_Tireon_Model_Catalog_Category::PARENT_CATEGORY_URL_KEY_OTHERS;
-        } else {
+        if($fileName == SH_Tireon_Model_CSV::CSV_FILE_NAME_TYRES) {
             $fileName = SH_Tireon_Model_Catalog_Category::PARENT_CATEGORY_URL_KEY_TYRES;
         }
+
+        $nonRemovableProducts = array();
 
         foreach ($products as $value) {
             $productModel = Mage::getModel('catalog/product');
@@ -52,13 +51,15 @@ class SH_Tireon_Model_Catalog_Product
                     ->setAttributeSetId($productModel->getDefaultAttributeSetId())
                     ->setWebsiteIDs(array(1));
 
-                $issetProduct = $shHelper->checkExistingModel(
-                    'catalog/product',
-                    array('field' => 'sku', 'value' => $shHelper->transliterate($value[self::CSV_COLUMN_PRODUCT_NAME]))
-                );
+                if(!$create) {
+                    $issetProduct = $shHelper->checkExistingModel(
+                        'catalog/product',
+                        array('field' => 'sku', 'value' => $shHelper->transliterate($value[self::CSV_COLUMN_PRODUCT_NAME]))
+                    );
 
-                if (!$issetProduct->isEmpty()) {
-                    $productModel = $productModel->load($issetProduct->getId());
+                    if ($issetProduct->getId()) {
+                        $productModel = $productModel->load($issetProduct->getId());
+                    }
                 }
 
                 $urlKey = $shHelper->transliterate($value[self::CSV_COLUMN_CATEGORY]);
@@ -96,14 +97,22 @@ class SH_Tireon_Model_Catalog_Product
                                 $productModel->setData($shHelper->transliterate($key, true), $attrValue);
                             }
                         }
-
                     }
                 }
 
+                if(!$create && strpos($productModel->getSku(), $this->_getSkuPostfix()) == false && $productModel->getId()) {
+                    $nonRemovableProducts[] = $productModel->getId();
+                }
+
                 $productModel->save();
+
             } catch (Exception $e) {
-                Mage::throwException($e->getMessage());
+                Mage::log($e->getMessage(), null, 'update_products.log');
             }
+        }
+
+        if(!$create) {
+            $this->_removeOldProducts($nonRemovableProducts);
         }
     }
 
@@ -137,47 +146,102 @@ class SH_Tireon_Model_Catalog_Product
      */
     protected function _setAttributeEntities($attributeCode, $attributeValue)
     {
-        $attributeModel = Mage::getModel('eav/entity_attribute');
-        /* @var $attributeModel Mage_Eav_Model_Attribute*/
-        $attributeOptionsModel = Mage::getModel('eav/entity_attribute_source_table');
-        $attributeCode = $attributeModel->getIdByCode('catalog_product', $attributeCode);
-        $attribute = $attributeModel->load($attributeCode);
-        $attributeOptionsModel->setAttribute($attribute);
-        $options = $attributeOptionsModel->getAllOptions(false);
+        if(($attributeCode != 'shirina' && $attributeCode == 'profil') ||
+            ($attributeCode == 'shirina' && $attributeValue >= 135) ||
+            ($attributeCode == 'profil' && $attributeValue >= 30)) {
+            $attributeModel = Mage::getModel('eav/entity_attribute');
+            /* @var $attributeModel Mage_Eav_Model_Attribute*/
+            $attributeOptionsModel = Mage::getModel('eav/entity_attribute_source_table');
+            $attributeCode = $attributeModel->getIdByCode('catalog_product', $attributeCode);
+            $attribute = $attributeModel->load($attributeCode);
+            $attributeOptionsModel->setAttribute($attribute);
+            $options = $attributeOptionsModel->getAllOptions(false);
 
-        $valueExists = false;
-        foreach ($options as $option) {
-            if ($option['label'] == $attributeValue) {
-                $valueExists = true;
-                break;
-            }
-        }
-
-        if (!$valueExists) {
-            $attribute->setData(
-                'option',
-                array(
-                    'value' => array(
-                        'option' => array($attributeValue)
-                    )
-                )
-            );
-            $attribute->save();
-        }
-
-        $attribute = Mage::getSingleton('eav/config')->getAttribute('catalog_product', $attributeCode);
-
-        if ($attribute->getFrontendInput() == 'select') {
-            $attributeSelectTagOptions = $attribute->getSource()->getAllOptions(false);
-
-            foreach ($attributeSelectTagOptions as $option) {
-
+            $valueExists = false;
+            foreach ($options as $option) {
                 if ($option['label'] == $attributeValue) {
-                    $attrValue = $option['value'];
+                    $valueExists = true;
+                    break;
                 }
             }
+
+            if (!$valueExists && !empty($attributeValue)) {
+                $attribute->setData(
+                    'option',
+                    array(
+                        'value' => array(
+                            'option' => array($attributeValue)
+                        )
+                    )
+                );
+                $attribute->save();
+            }
+
+            $attribute = Mage::getSingleton('eav/config')->getAttribute('catalog_product', $attributeCode);
+
+            if ($attribute->getFrontendInput() == 'select') {
+                $attributeSelectTagOptions = $attribute->getSource()->getAllOptions(false);
+
+                foreach ($attributeSelectTagOptions as $option) {
+
+                    if ($option['label'] == $attributeValue) {
+                        $attrValue = $option['value'];
+                    }
+                }
+            }
+
+            return $attrValue;
+        } else {
+            return null;
         }
 
-        return $attrValue;
+
+    }
+
+    /**
+     * @return int|null
+     */
+    private function _getTytesCategoryId()
+    {
+//        $categoryId = null;
+        /** @var $categoryModel Mage_Catalog_Model_Category */
+//        $categoryModel = Mage::getModel('catalog/category');
+//        $categoryModel
+//            ->getCollection()
+//            ->addAttributeToFilter('url_key', array('eq' => SH_Tireon_Model_Catalog_Category::PARENT_CATEGORY_URL_KEY_TYRES));
+//
+//        if (!empty($categoryModel->getFirstItem()->getId())) {
+//            $categoryId = $categoryModel->getFirstItem()->getId();
+//        }
+//
+//        return $categoryId;
+    }
+
+    /**
+     * @param $nonRemovableProducts
+     */
+    private function _removeOldProducts($nonRemovableProducts)
+    {
+        /** @var $productModel Mage_Catalog_Model_Product */
+        $productModel = Mage::getModel('catalog/product');
+        $productCollection = $productModel
+            ->getCollection()
+            ->addAttributeToFilter('entity_id', array('nin' => $nonRemovableProducts))
+            ->addAttributeToFilter('sku', array('nlike' => '%' . $this->_getSkuPostfix()));
+
+        Mage::register('isSecureArea', 1);
+        /** @var $product Mage_Catalog_Model_Product */
+        foreach ($productCollection as $product) {
+            try {
+                $product->delete();
+            } catch (Exception $e) {
+                Mage::log($e->getMessage(), null, 'removable_products.log');
+            }
+        }
+    }
+
+    private function _getSkuPostfix()
+    {
+        return Mage::getStoreConfig('sh_tireon_settings/general/custom_product_sku');
     }
 }

@@ -36,9 +36,12 @@ class SH_Tireon_Model_CSV
     }
 
     /**
-     * Set Entities as Category, Product
+     * @param $fileName
+     * @param bool|false $create
+     *
+     * @throws Mage_Core_Exception
      */
-    public function setEntities($fileName)
+    public function setEntities($fileName, $create = false)
     {
         try {
             $data = $this->_getCsvData($fileName);
@@ -52,7 +55,7 @@ class SH_Tireon_Model_CSV
 
             $shProductModel = Mage::getModel('sh_tireon/catalog_product', $product);
             /* @var $shProductModel SH_Tireon_Model_Catalog_Product */
-            $shProductModel->buildProducts($fileName);
+            $shProductModel->buildProducts($fileName, $create);
 
         } catch (Exception $e) {
             Mage::throwException($e->getMessage());
